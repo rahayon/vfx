@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import TopNavigation from './Components/TopNavigation/TopNavigation';
 
 function App() {
   return (
     <div className="App">
-      <h1>hi i am hasant</h1>
-      <h2>hi i am rahidul</h2>
-      <p>lorem lorem lorem lorem</p>
+      <TopNavigation/>
     </div>
   );
 }
