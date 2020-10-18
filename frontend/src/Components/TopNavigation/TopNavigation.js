@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {Nav, Navbar, Form, FormControl} from 'react-bootstrap';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 class TopNavigation extends Component {
     render() {
         return (
