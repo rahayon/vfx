@@ -1,10 +1,8 @@
 import React, { Component, Fragment } from 'react';
-<<<<<<< HEAD
 import {Nav, Navbar, Form, FormControl,NavDropdown,Button} from 'react-bootstrap';
-=======
 import {Nav, Navbar, Form, FormControl} from 'react-bootstrap';
+import {Nav, Navbar, Form, FormControl,NavDropdown, Button} from 'react-bootstrap';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
->>>>>>> 04bb34ef078b525d9ee7636767e6e412b8a3ca25
 class TopNavigation extends Component {
     render() {
         return (
