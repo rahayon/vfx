@@ -10,15 +10,19 @@ class Summery extends Component {
                     <div>
                         <Row>
                             <Col>
-                            <h1>
-                                <CountUp start={0} end={500}>
-                                    {({ countUpRef, start }) => (
-                                        <VisibilitySensor onChange={start} delayedCall>
-                                        <span ref={countUpRef} />
-                                      </VisibilitySensor>
-                                    )}
-                                </CountUp>
-                            </h1>
+                                <Row>
+                                    <Col>
+                                        <h1>
+                                            <CountUp start={0} end={500}>
+                                                {({ countUpRef, start }) => (
+                                                    <VisibilitySensor onChange={start} delayedCall>
+                                                        <span ref={countUpRef} />
+                                                    </VisibilitySensor>
+                                                )}
+                                            </CountUp>
+                                        </h1>
+                                    </Col>
+                                </Row>
                             </Col>
                         </Row>
                     </div>
