@@ -6,7 +6,7 @@ class TopNavigation extends Component {
 
     render() {
         return (
-          <>
+          <Fragment>
            <div className="main_div">
                <div className="container-fluid">
                 <Navbar bg="light" expand="lg">
@@ -32,7 +32,7 @@ class TopNavigation extends Component {
                     </Navbar>
                </div>
            </div>
-          </>
+          </Fragment>
         );
     }
 }
