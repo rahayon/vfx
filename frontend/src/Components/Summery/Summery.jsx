@@ -6,8 +6,8 @@ class Summery extends Component {
     render() {
         return (
             <Fragment>
-                <Container>
-                    <div>
+                <Container fluid={true}>
+                    <div className="summerySection">
                         <Row>
                             <Col>
                                 <Row>
