@@ -1,0 +1,362 @@
+p,h1,h2,h3,h5,h4,h6{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+    li{
+        list-style: none;
+    }
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+// =============================== start nevbar section =========
+.Navbarsection{
+    background-color: #000000;
+    .control-serarch{
+        display: none;
+        
+    }
+    .navbar-brand{
+        color:#ffffff;
+        img{
+            width: 50px;
+            max-width: 100%;
+        }
+    }
+    .btn{
+        background-color: #ffffff;
+        font-size: 16px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+        padding:4px 8px 4px 12px;
+        font-size: 14px;
+        }
+        .btn:hover{
+            background-color: rgb(4, 238, 238);
+            color: #000000;
+        }
+        .log-in{
+            display: flex;
+        }
+        .inputsearch{
+            border-radius: 0px 4px 4px 0px;
+            padding:0px 0px 0px 10px;
+            height: 29px;
+            font-size:14px;
+            outline: 0px;
+        }
+        .rorm-control:focus{
+            color: none; 
+            background-color: none; 
+            border-color:none; 
+            outline: 0;
+            box-shadow: none;
+        }
+
+    .navbar-toggler-icon{
+        background-image: none;
+    }
+    
+   
+    .navbar-hamburger {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    }
+    .navbar{
+        background-color: #000000!important;
+        color: #cecbcb!important;
+
+    }
+   .nav-link{
+        color: #cecbcb!important;
+    }
+    .nav-link:hover{
+        color:#ffffff!important;
+    }
+
+    .dropdown-menu{
+        background-color: #09010180!important;
+
+    }
+    .sub-manu{
+        background-color: #09010180!important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        .box-innn{
+            display: flex;
+            width: 300px;
+            max-width: 100%;
+            padding: 10px;
+
+            .list-two{
+                padding-left: 20px;
+
+            }
+
+            ul{
+
+               li{
+                 .nav-link:hover{
+                     text-decoration: underline!important;
+                 }
+               }
+           }
+        }
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+    }
+}
+
+
+.Navbarsection{
+    .control-up-searchber{
+        .control-serarch{
+                display: inline-block;
+                left: 10%;
+                top:20%;
+                text-align: center;
+        }
+        .btn{
+                font-size: 11px;
+                border-radius: 5px 0px 0px 5px;
+                border: none;
+                padding:2px 8px 2px 12px;
+                font-size: 14px;
+                background-color: #cecbcb;
+            }
+            .btn:hover{
+                background-color: rgb(4, 238, 238);
+                color: #000000;
+            }
+            .form-control:focus {
+                outline: none;
+                box-shadow: none!important;
+              }
+            .log-in{
+                display: flex;
+            }
+            .inputsearch{
+                border-radius: 0px 4px 4px 0px;
+                    padding:0px 0px 0px 10px;
+                    height: 25px;
+                    font-size:14px;
+                    outline: 0px;
+                    max-width: 80px;
+                    width:100%;
+                    background-color: #151313;
+            }
+            .rorm-control:focus{
+                color: none; 
+                background-color: none; 
+                border-color:none; 
+                outline: 0;
+                box-shadow: none;
+            }
+    
+    }
+
+}
+@media(min-width:300px){
+    .Navbarsection{
+        .control-up-searchber{
+            .control-serarch{
+                display: block;
+                left: 20px;
+                top:20%;
+                text-align: center;
+                .form-inline{
+                    padding-top:11px;
+                }
+            }
+            .btn{
+                font-size: 11px;
+                border-radius: 5px 0px 0px 5px;
+                border: none;
+                padding:2px 8px 2px 12px;
+                font-size: 14px;
+                background-color: #cecbcb;
+                }
+                .log-in{
+                    display: flex;
+                    font-size: 12px;
+                    padding-bottom: 5px;
+                    .linklogin{
+                        padding-left:6px;
+                    }
+                }
+                .inputsearch{
+                    border-radius: 0px 4px 4px 0px;
+                    padding:0px 0px 0px 10px;
+                    height: 25px;
+                    font-size:14px;
+                    outline: 0px;
+                    background-color: #151313;
+                    
+                }
+                .rorm-control:focus{
+                    color: none; 
+                    background-color: none; 
+                    border-color:none; 
+                    outline: 0;
+                    box-shadow: none!important;
+                }
+        
+        }
+    }
+}
+
+@media(min-width:450px){
+    .Navbarsection{
+        .control-up-searchber{
+            .inputsearch{
+                    max-width: 150px;
+                    width:100%;
+            }
+         }
+    }
+ 
+}
+
+
+@media(min-width:576px){
+    .Navbarsection{
+        .control-up-searchber{
+            
+            .control-serarch{
+                
+                display: flex;
+                position: absolute;
+                left: 25%;
+                top:3%;
+            }
+            .btn{
+                background-color: #2e2a2a;
+                font-size: 16px;
+                border-radius: 5px 0px 0px 5px;
+                border: none;
+                padding:4px 8px 4px 12px;
+                font-size: 14px;
+                }
+                .btn:hover{
+                    background-color: rgb(4, 238, 238);
+                    color: #000000;
+                }
+                .log-in{
+                    display: flex;
+                    .linklogin{
+                        padding-top: 20px;
+                    }
+                }
+                .inputsearch{
+                    color:#f7efef;
+                    border-radius: 0px 4px 4px 0px;
+                    padding:0px 0px 0px 10px;
+                    height: 29px;
+                    font-size:14px;
+                    outline: 0px;
+                    width:190px;
+                    max-width:100%;
+                    border-color: #2e2a2a;
+                }
+                .rorm-control:focus{
+                    color: none; 
+                    background-color: none; 
+                    border-color:none; 
+                    outline: 0px;
+                    box-shadow: none!important;
+                }
+        
+        }
+    }
+    
+    
+}
+
+
+
+
+
+
+@media(min-width:992px){
+   .Navbarsection{
+    .control-up-searchber{
+        display: none;
+        .control-serarch{
+            display: flex;
+            position: absolute;
+            left: 30%;
+            top:2%;
+        }
+    }
+    .control-serarch{
+        display: flex;
+        position: relative;
+        left: 0%;
+    }
+    .btn{
+        background-color: #ffffff;
+        font-size: 16px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+        padding:4px 8px 4px 12px;
+        font-size: 14px;
+        }
+
+        .form-control:focus {
+            outline: none;
+            box-shadow: none!important;
+          }
+
+        .btn:hover{
+            background-color: rgb(4, 238, 238);
+            color: #000000;
+        }
+        .log-in{
+            display: flex;
+        }
+        .inputsearch{
+            border-radius: 0px 4px 4px 0px;
+            padding:0px 0px 0px 10px;
+            height: 29px;
+            font-size:14px;
+            outline: 0px;
+        }
+        .rorm-control:focus{
+            color: none; 
+            background-color: none; 
+            border-color:none; 
+            outline: 0;
+            box-shadow: none;
+        }
+   } 
+}
+
+
+//==================== start slider section ================
+.control-margin{
+    .swiper-slide{
+        img{
+            width:100%;
+            max-width:100%;
+            
+        }
+         
+     }
+}
