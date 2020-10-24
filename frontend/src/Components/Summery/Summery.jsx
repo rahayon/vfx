@@ -44,12 +44,12 @@ class Summery extends Component {
                                 <Col lg={4} md={6} sm={12}>
                                     <Card className="cardSection">
                                         <Card.Body>
-                                            <Card.Title className="cardTitle">How I Work</Card.Title>
-                                            <Card.Text className="cardSubTitle">
-                                                <p><FaCheckCircle className="summeryIcon"/> Requirement Gathering</p>
-                                                <p><FaCheckCircle className="summeryIcon"/> Requirement Gathering</p>
-                                                <p><FaCheckCircle className="summeryIcon"/> Requirement Gathering</p>
-                                                <p><FaCheckCircle className="summeryIcon"/> Requirement Gathering</p>
+                                            <Card.Title className="cardTitle text-justify">How I Work</Card.Title>
+                                            <Card.Text>
+                                                <p className="cardSubTitle text-justify"><FaCheckCircle className="summeryIcon"/> Requirement Gathering</p>
+                                                <p className="cardSubTitle text-justify"><FaCheckCircle className="summeryIcon"/> Requirement Gathering</p>
+                                                <p className="cardSubTitle text-justify"><FaCheckCircle className="summeryIcon"/> Requirement Gathering</p>
+                                                <p className="cardSubTitle text-justify"><FaCheckCircle className="summeryIcon"/> Requirement Gathering</p>
                                                 
                                             </Card.Text>
                                         </Card.Body>                             
